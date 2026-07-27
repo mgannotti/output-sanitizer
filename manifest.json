@@ -1,0 +1,34 @@
+{
+  "cloud_writes": false,
+  "description": "Check an outbound draft for private-data leakage before it is sent.",
+  "distribution": "standalone",
+  "engine": "scripts/output_sanitizer.py",
+  "entrypoint": "SKILL.md",
+  "exit_codes": {
+    "0": "pass",
+    "1": "review",
+    "2": "block",
+    "3": "evidence error"
+  },
+  "input": "A draft as text/markdown, or JSON with body plus recipients.",
+  "name": "output-sanitizer",
+  "network_required": false,
+  "outputs": [
+    "output-sanitizer.json",
+    "output-sanitizer.md",
+    "output-sanitizer.html",
+    "output-sanitizer.redacted.txt"
+  ],
+  "runtime": {
+    "python": ">=3.10",
+    "third_party_packages": []
+  },
+  "schemas": {
+    "output": "references/report-schema.json"
+  },
+  "sends_messages": false,
+  "source_pack": "scout-agentops-kit",
+  "template": "templates/draft.example.json",
+  "tests": "tests/test_output_sanitizer.py",
+  "version": "1.0.0"
+}

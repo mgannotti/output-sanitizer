@@ -1,0 +1,6 @@
+{
+  "to": ["partner@example-external.test"],
+  "cc": [],
+  "subject": "Follow-up on the integration timeline",
+  "body": "Hi there,\n\nThanks for the call. Quick follow-up on where things stand.\n\nAs we discussed in our internal leadership sync, we are targeting the end of the quarter for the first integration milestone. I will be traveling — my flight lands Tuesday evening and I have a doctor's appointment Wednesday morning, so let's aim for Thursday.\n\nThe staging environment is at https://build-01.internal/pipeline and the current export lives at C:\\Users\\example\\Documents\\Exports\\integration-plan.xlsx. Service account credentials: api_key=sk-EXAMPLEEXAMPLEEXAMPLE123456\n\nPlease loop in dana.rivera@another-company.test and jordan.kim@another-company.test — Dana's mobile is (555) 010-4477 if it is urgent.\n\nMicrosoft Confidential — Internal Only. Do not distribute.\n\nBest,\n${sender_name}\n"
+}
