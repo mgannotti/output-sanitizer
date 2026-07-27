@@ -1,7 +1,7 @@
 slug: output-sanitizer
 title: Output Sanitizer
 summary: Check an outbound draft for private-data leakage before it is sent.
-version: 1.1.1
+version: 1.1.2
 public_safe: true
 type: skill
 category: agent-operations
