@@ -26,7 +26,7 @@ python scripts/output_sanitizer.py \
   --outdir out/output-sanitizer
 ```
 
-- `--allow-contact a@x.test b@y.test` — addresses that may legitimately appear in the body.
+- `--allow-contact a@example.com b@example.org` — addresses that may legitimately appear in the body.
 - `--require-recipients` — flag drafts that declare no recipient list.
 - `--no-redacted-copy` — report only.
 - `--fail-on block` — exit non-zero on a blocking leak.
