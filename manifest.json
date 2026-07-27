@@ -30,5 +30,5 @@
   "source_pack": "scout-agentops-kit",
   "template": "templates/draft.example.json",
   "tests": "tests/test_output_sanitizer.py",
-  "version": "1.1.2"
+  "version": "1.2.0"
 }
